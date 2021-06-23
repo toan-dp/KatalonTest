@@ -1,0 +1,16 @@
+1
+00:00:00,870 --> 00:00:00,871
+1. comment("Story: Register An Account")
+
+2
+00:00:00,926 --> 00:00:00,934
+5. comment("Given that the user has the valid login information")
+
+3
+00:00:00,950 --> 00:00:00,953
+9. callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE)
+
+4
+00:00:01,091 --> 00:00:01,094
+1. openBrowser(G_SiteURL)
+

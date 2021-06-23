@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Main Test Cases/TC1_ Register An Account","testCaseId":"Test Cases/Main Test Cases/TC1_ Register An Account","bindedValues":{"EmailNotRegistered":"\u0027toandang@kms-technology.com\u0027"}}
+{"testCaseName":"Test Cases/Main Test Cases/TC2_Forgot Password","testCaseId":"Test Cases/Main Test Cases/TC2_Forgot Password","bindedValues":{"EmailNotRegistered":"\u0027toandang@kms-technology.com\u0027","InvalidEmail":"\u0027email@gmail\u0027","EmailRegistered":"\u0027test@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/Main Test Cases/TC3_Contact Us","testCaseId":"Test Cases/Main Test Cases/TC3_Contact Us","bindedValues":{"EmailRegistered":"\u0027test@gmail.com\u0027"}}

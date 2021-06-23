@@ -1,0 +1,40 @@
+1
+00:00:00,867 --> 00:00:00,885
+7. Call testcase to navigate to 'Authentication' Page
+
+2
+00:00:03,740 --> 00:00:03,746
+3. Open Browser and Navigate to Home Page
+
+3
+00:00:22,846 --> 00:00:22,848
+9. Maximize Window
+
+4
+00:00:22,988 --> 00:00:22,990
+15. Click on 'Sign In' link in Main Menu
+
+5
+00:00:26,714 --> 00:00:26,716
+21. Verify navigation to 'Authentication' Page 
+
+6
+00:00:27,345 --> 00:00:27,348
+13. Input email to create an account
+
+7
+00:00:28,168 --> 00:00:28,170
+19. Click on 'Create an account' button
+
+8
+00:00:28,791 --> 00:00:28,793
+25. Verify navigation to 'Create An Account' Page 
+
+9
+00:00:30,467 --> 00:00:30,468
+31. Verify an email was input in step before
+
+10
+00:00:31,029 --> 00:00:31,031
+1. closeBrowser()
+

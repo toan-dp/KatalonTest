@@ -1,0 +1,16 @@
+1
+00:00:01,667 --> 00:00:01,675
+7. Call testcase to navigate to 'Authentication' Page
+
+2
+00:00:03,354 --> 00:00:03,355
+3. Open Browser and Navigate to Home Page
+
+3
+00:05:21,188 --> 00:05:21,189
+1. closeBrowser()
+
+4
+00:05:28,711 --> 00:05:28,712
+1. closeBrowser()
+

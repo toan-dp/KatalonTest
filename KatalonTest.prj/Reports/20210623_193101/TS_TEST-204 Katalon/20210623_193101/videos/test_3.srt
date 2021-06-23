@@ -1,0 +1,12 @@
+1
+00:00:00,643 --> 00:00:00,644
+3. Open Browser and navigate to Home Page
+
+2
+00:00:06,331 --> 00:00:06,338
+1. closeBrowser()
+
+3
+00:00:06,364 --> 00:00:06,365
+1. closeBrowser()
+

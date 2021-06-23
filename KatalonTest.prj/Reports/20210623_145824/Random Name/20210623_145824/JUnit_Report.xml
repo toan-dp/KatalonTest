@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Random Name" time="113.19" tests="3" failures="0" errors="1">
+   <testsuite name="Random Name" tests="3" failures="0" errors="1" time="113.19" timestamp="2021-06-23 14:58:33" hostname="toandang - 1XSTX32.kms.com.vn" id="Test Suites/Random Name">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824"/>
+         <property name="logFiles" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_1.avi, C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_2.avi, C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_3.avi"/>
+         <property name="hostName" value="toandang - 1XSTX32.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 91.0.4472.114"/>
+         <property name="hostAddress" value="192.168.1.30"/>
+         <property name="sessionId" value="d67e417f7266e7c77b3aa2cec837cb76"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC2_Forgot Password" time="40.966" classname="Test Cases/Main Test Cases/TC2_Forgot Password" status="PASSED">
+         <system-out><![CDATA[2021-06-23 14:58:34 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password
+
+2021-06-23 14:58:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 14:58:35 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Navigate to Authentication Page: Test Cases/Common Test Cases/Navigate to Authentication Page
+
+2021-06-23 14:58:35 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 14:58:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-23 14:58:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-06-23 14:58:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 14:58:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 14:58:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 14:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 14:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 14:58:58 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE): Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 14:59:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Authentication/txa_title_Authentication Page' is: 'AUTHENTICATION'
+
+2021-06-23 14:59:00 - [MESSAGE][PASSED] - Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 14:59:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 14:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password")): Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 14:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 14:59:02 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE): Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 14:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password' is: 'FORGOT YOUR PASSWORD?'
+
+2021-06-23 14:59:03 - [MESSAGE][PASSED] - Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 14:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:07 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 14:59:07 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), Email): Text 'email@gmail' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 14:59:08 - [MESSAGE][PASSED] - Text 'email@gmail' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 14:59:08 - [TEST_STEP][PASSED] - switch (com.example.WebUICustomKeywords.CheckInput(Email)): null
+
+2021-06-23 14:59:08 - [MESSAGE][PASSED] - com.example.WebUICustomKeywords.CheckInput is PASSED
+
+2021-06-23 14:59:08 - [TEST_STEP][PASSED] - case "1":: null
+
+2021-06-23 14:59:08 - [TEST_STEP][PASSED] - comment("Invalid email address"): Invalid email address
+
+2021-06-23 14:59:08 - [MESSAGE][INFO] - Invalid email address
+
+2021-06-23 14:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password")): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:10 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 14:59:11 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:11 - [TEST_STEP][PASSED] - break: null
+
+2021-06-23 14:59:11 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-06-23 14:59:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 14:59:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 14:59:12 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2021-06-23 14:59:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+
+2021-06-23 14:59:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Forgot Password" time="36.789" classname="Test Cases/Main Test Cases/TC2_Forgot Password" status="ERROR">
+         <error type="ERROR" message="Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RegisteredEmail for class: Script1624338313305
+	at TC2_Forgot Password.run(TC2_Forgot Password:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624435104230.run(TempTestSuite1624435104230.groovy:36)
+"/>
+         <system-out><![CDATA[2021-06-23 14:59:15 - [TEST_CASE][ERROR] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RegisteredEmail for class: Script1624338313305
+	at TC2_Forgot Password.run(TC2_Forgot Password:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624435104230.run(TempTestSuite1624435104230.groovy:36)
+
+
+2021-06-23 14:59:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 14:59:15 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Navigate to Authentication Page: Test Cases/Common Test Cases/Navigate to Authentication Page
+
+2021-06-23 14:59:15 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 14:59:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-23 14:59:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 14:59:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 14:59:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 14:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 14:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 14:59:33 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE): Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 14:59:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Authentication/txa_title_Authentication Page' is: 'AUTHENTICATION'
+
+2021-06-23 14:59:35 - [MESSAGE][PASSED] - Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 14:59:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 14:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password")): Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 14:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 14:59:38 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE): Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 14:59:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password' is: 'FORGOT YOUR PASSWORD?'
+
+2021-06-23 14:59:39 - [MESSAGE][PASSED] - Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 14:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:41 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 14:59:41 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 14:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), Email): Text 'test@gmail.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 14:59:42 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 14:59:42 - [TEST_STEP][PASSED] - switch (com.example.WebUICustomKeywords.CheckInput(Email)): null
+
+2021-06-23 14:59:43 - [MESSAGE][PASSED] - com.example.WebUICustomKeywords.CheckInput is PASSED
+
+2021-06-23 14:59:43 - [TEST_STEP][PASSED] - case "3":: Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'A confirmation email has been sent to your address: test@gmail.com'
+
+2021-06-23 14:59:43 - [TEST_STEP][PASSED] - comment("Email was registered"): Email was registered
+
+2021-06-23 14:59:43 - [MESSAGE][INFO] - Email was registered
+
+2021-06-23 14:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password")): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 14:59:47 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "a confirmation email has been sent to your address: " + RegisteredEmail, false, STOP_ON_FAILURE): Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'A confirmation email has been sent to your address: test@gmail.com'
+
+2021-06-23 14:59:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'A confirmation email has been sent to your address: test@gmail.com'
+
+2021-06-23 14:59:48 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-06-23 14:59:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 14:59:49 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 14:59:49 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2021-06-23 14:59:51 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+
+2021-06-23 14:59:51 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_2.avi]]]]></system-out>
+         <system-err><![CDATA[2021-06-23 14:59:15 - [TEST_CASE][ERROR] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RegisteredEmail for class: Script1624338313305
+	at TC2_Forgot Password.run(TC2_Forgot Password:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624435104230.run(TempTestSuite1624435104230.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Forgot Password" time="34.625" classname="Test Cases/Main Test Cases/TC2_Forgot Password" status="PASSED">
+         <system-out><![CDATA[2021-06-23 14:59:51 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password
+
+2021-06-23 14:59:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 14:59:51 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Navigate to Authentication Page: Test Cases/Common Test Cases/Navigate to Authentication Page
+
+2021-06-23 14:59:51 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 14:59:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-23 15:00:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 15:00:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 15:00:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 15:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 15:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 15:00:11 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE): Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 15:00:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Authentication/txa_title_Authentication Page' is: 'AUTHENTICATION'
+
+2021-06-23 15:00:12 - [MESSAGE][PASSED] - Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 15:00:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 15:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password")): Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 15:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 15:00:14 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE): Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 15:00:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password' is: 'FORGOT YOUR PASSWORD?'
+
+2021-06-23 15:00:14 - [MESSAGE][PASSED] - Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 15:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 15:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 15:00:16 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 15:00:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 15:00:16 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 15:00:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), Email): Text 'toandang@katalon-technology.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 15:00:17 - [MESSAGE][PASSED] - Text 'toandang@katalon-technology.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 15:00:17 - [TEST_STEP][PASSED] - switch (com.example.WebUICustomKeywords.CheckInput(Email)): null
+
+2021-06-23 15:00:17 - [MESSAGE][PASSED] - com.example.WebUICustomKeywords.CheckInput is PASSED
+
+2021-06-23 15:00:17 - [TEST_STEP][PASSED] - case "2":: null
+
+2021-06-23 15:00:17 - [TEST_STEP][PASSED] - comment("Email was not registered"): Email was not registered
+
+2021-06-23 15:00:17 - [MESSAGE][INFO] - Email was not registered
+
+2021-06-23 15:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password")): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 15:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 15:00:22 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+there is no account registered for this email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+there is no account registered for this email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are matched 
+
+2021-06-23 15:00:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+There is no account registered for this email address.'
+
+2021-06-23 15:00:22 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+there is no account registered for this email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are matched 
+
+2021-06-23 15:00:22 - [TEST_STEP][PASSED] - break: null
+
+2021-06-23 15:00:22 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-06-23 15:00:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 15:00:24 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 15:00:24 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2021-06-23 15:00:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+
+2021-06-23 15:00:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_145824\\Random Name\\20210623_145824/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-23 14:58:33 - [TEST_SUITE][ERROR] - Random Name: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RegisteredEmail for class: Script1624338313305
+	at TC2_Forgot Password.run(TC2_Forgot Password:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624435104230.run(TempTestSuite1624435104230.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-06-23 14:58:33 - [TEST_SUITE][ERROR] - Random Name: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RegisteredEmail for class: Script1624338313305
+	at TC2_Forgot Password.run(TC2_Forgot Password:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624435104230.run(TempTestSuite1624435104230.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

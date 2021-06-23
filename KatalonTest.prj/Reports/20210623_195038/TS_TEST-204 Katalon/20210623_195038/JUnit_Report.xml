@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TEST-204 Katalon" time="403.728" tests="3" failures="2" errors="0">
+   <testsuite name="TS_TEST-204 Katalon" tests="3" failures="2" errors="0" time="403.728" timestamp="2021-06-23 19:50:49" hostname="toandang - 1XSTX32.kms.com.vn" id="Test Suites/TS_TEST-204 Katalon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038"/>
+         <property name="logFiles" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_1.avi, C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_2.avi, C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038\\1624453040925.png, C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_3.avi"/>
+         <property name="hostName" value="toandang - 1XSTX32.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Firefox 89.0"/>
+         <property name="hostAddress" value="192.168.1.30"/>
+         <property name="sessionId" value="bf6dd5f9-7940-471c-a422-4d221e4e36b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_ Register An Account" time="139.202" classname="Test Cases/Main Test Cases/TC1_ Register An Account" status="PASSED">
+         <system-out><![CDATA[2021-06-23 19:50:50 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_ Register An Account: Test Cases/Main Test Cases/TC1_ Register An Account
+
+2021-06-23 19:50:51 - [TEST_STEP][PASSED] - "Story: Register An Account": null
+
+2021-06-23 19:50:51 - [TEST_STEP][PASSED] - "Given that the user has the valid login information": null
+
+2021-06-23 19:50:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 19:50:52 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Navigate to Authentication Page: Test Cases/Common Test Cases/Navigate to Authentication Page
+
+2021-06-23 19:50:52 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:50:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-06-23 19:50:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2021-06-23 19:52:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:52:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 19:52:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 19:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 19:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 19:52:57 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE): Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 19:52:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Authentication/txa_title_Authentication Page' is: 'AUTHENTICATION'
+
+2021-06-23 19:52:58 - [MESSAGE][PASSED] - Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 19:52:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 19:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Authentication/txt_Email Address"), EmailNotRegistered, STOP_ON_FAILURE): Text 'toandang@kms-technology.com' is set on object 'Object Repository/Page_Authentication/txt_Email Address'
+
+2021-06-23 19:52:59 - [MESSAGE][PASSED] - Text 'toandang@kms-technology.com' is set on object 'Object Repository/Page_Authentication/txt_Email Address'
+
+2021-06-23 19:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Authentication/btn_Create An Account"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Authentication/btn_Create An Account' is clicked on
+
+2021-06-23 19:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Authentication/btn_Create An Account' is clicked on
+
+2021-06-23 19:53:00 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Create An Account/txa_title_Create An Account")).toLowerCase(), "create an account", false, STOP_ON_FAILURE): Actual text 'create an account' and expected text 'create an account' are matched 
+
+2021-06-23 19:53:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Create An Account/txa_title_Create An Account' is: 'CREATE AN ACCOUNT'
+
+2021-06-23 19:53:02 - [MESSAGE][PASSED] - Actual text 'create an account' and expected text 'create an account' are matched 
+
+2021-06-23 19:53:02 - [TEST_STEP][PASSED] - verifyMatch(getAttribute(findTestObject("Object Repository/Page_Create An Account/txt_Email Address"), "value"), EmailNotRegistered, false, STOP_ON_FAILURE): Actual text 'toandang@kms-technology.com' and expected text 'toandang@kms-technology.com' are matched 
+
+2021-06-23 19:53:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Create An Account/txt_Email Address' is: 'toandang@kms-technology.com'
+
+2021-06-23 19:53:03 - [MESSAGE][PASSED] - Actual text 'toandang@kms-technology.com' and expected text 'toandang@kms-technology.com' are matched 
+
+2021-06-23 19:53:03 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-06-23 19:53:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 19:53:07 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 19:53:07 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2021-06-23 19:53:09 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_ Register An Account' .
+
+2021-06-23 19:53:09 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_ Register An Account' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Forgot Password" time="147.001" classname="Test Cases/Main Test Cases/TC2_Forgot Password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+"/>
+         <system-out><![CDATA[2021-06-23 19:53:09 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+
+
+2021-06-23 19:53:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 19:53:10 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Navigate to Authentication Page: Test Cases/Common Test Cases/Navigate to Authentication Page
+
+2021-06-23 19:53:10 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:53:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-06-23 19:54:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:54:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 19:54:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 19:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 19:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/lnk_SignIn' is clicked on
+
+2021-06-23 19:55:15 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE): Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 19:55:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Authentication/txa_title_Authentication Page' is: 'AUTHENTICATION'
+
+2021-06-23 19:55:16 - [MESSAGE][PASSED] - Actual text 'authentication' and expected text 'authentication' are matched 
+
+2021-06-23 19:55:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Navigate to Authentication Page' successfully
+
+2021-06-23 19:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password")): Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 19:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Authentication/lnk_Forgot Your Password' is clicked on
+
+2021-06-23 19:55:19 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE): Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 19:55:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password' is: 'FORGOT YOUR PASSWORD?'
+
+2021-06-23 19:55:20 - [MESSAGE][PASSED] - Actual text 'forgot your password?' and expected text 'forgot your password?' are matched 
+
+2021-06-23 19:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 19:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 19:55:26 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE): Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 19:55:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 19:55:27 - [MESSAGE][PASSED] - Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+invalid email address.' are matched 
+
+2021-06-23 19:55:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), EmailNotRegistered): Text 'toandang@kms-technology.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 19:55:28 - [MESSAGE][PASSED] - Text 'toandang@kms-technology.com' is set on object 'Object Repository/Page_Forgot Your Password/txt_Email Address'
+
+2021-06-23 19:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password")): Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 19:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Your Password/btn_Retrieve Password' is clicked on
+
+2021-06-23 19:55:33 - [TEST_STEP][FAILED] - verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+there is no account registered for this email address.", false, STOP_ON_FAILURE): Unable to verify match between actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+)
+
+2021-06-23 19:55:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Forgot Your Password/msg_Alert' is: 'There is 1 error
+Invalid email address.'
+
+2021-06-23 19:55:34 - [MESSAGE][FAILED] - Unable to verify match between actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+)
+
+2021-06-23 19:55:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+
+2021-06-23 19:55:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC2_Forgot Password' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_2.avi]]]]></system-out>
+         <system-err><![CDATA[2021-06-23 19:53:09 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Forgot Password: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC3_Contact Us" time="116.394" classname="Test Cases/Main Test Cases/TC3_Contact Us" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Main Test Cases/TC3_Contact Us FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at Script1624371709791.run(Script1624371709791.groovy:47)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-06-23 19:55:36 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC3_Contact Us: Test Cases/Main Test Cases/TC3_Contact Us FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at Script1624371709791.run(Script1624371709791.groovy:47)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-06-23 19:55:37 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:55:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-06-23 19:55:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-06-23 19:57:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2021-06-23 19:57:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-06-23 19:57:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-23 19:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/btn_Contact Us"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Home/btn_Contact Us' is clicked on
+
+2021-06-23 19:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/btn_Contact Us' is clicked on
+
+2021-06-23 19:57:17 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Object Repository/Page_Customer Service - Contact Us/txa_title_Customer Service - Contact Us")).toLowerCase(), "customer service - contact us", false, STOP_ON_FAILURE): Actual text 'customer service - contact us' and expected text 'customer service - contact us' are matched 
+
+2021-06-23 19:57:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Customer Service - Contact Us/txa_title_Customer Service - Contact Us' is: 'CUSTOMER SERVICE - CONTACT US'
+
+2021-06-23 19:57:18 - [MESSAGE][PASSED] - Actual text 'customer service - contact us' and expected text 'customer service - contact us' are matched 
+
+2021-06-23 19:57:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_Customer Service - Contact Us/cbo_Subject Heading"), "Customer service", false, CONTINUE_ON_FAILURE): All options with label 'Customer service' are selected in object 'Object Repository/Page_Customer Service - Contact Us/cbo_Subject Heading' 
+
+2021-06-23 19:57:19 - [MESSAGE][PASSED] - All options with label 'Customer service' are selected in object 'Object Repository/Page_Customer Service - Contact Us/cbo_Subject Heading' 
+
+2021-06-23 19:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Service - Contact Us/txt_Email Address"), EmailRegistered, CONTINUE_ON_FAILURE): Text 'test@gmail.com' is set on object 'Object Repository/Page_Customer Service - Contact Us/txt_Email Address'
+
+2021-06-23 19:57:19 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Customer Service - Contact Us/txt_Email Address'
+
+2021-06-23 19:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Service - Contact Us/txt_Order Reference"), "Random data", CONTINUE_ON_FAILURE): Text 'Random data' is set on object 'Object Repository/Page_Customer Service - Contact Us/txt_Order Reference'
+
+2021-06-23 19:57:20 - [MESSAGE][PASSED] - Text 'Random data' is set on object 'Object Repository/Page_Customer Service - Contact Us/txt_Order Reference'
+
+2021-06-23 19:57:20 - [TEST_STEP][PASSED] - filePath = getProjectDir() + "/KMS-Logo.png": null
+
+2021-06-23 19:57:20 - [TEST_STEP][FAILED] - uploadFile(findTestObject("Object Repository/Page_Customer Service - Contact Us/img_Upload"), filePath, CONTINUE_ON_FAILURE): Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at Script1624371709791.run(Script1624371709791.groovy:47)
+	... 13 more
+)
+
+2021-06-23 19:57:21 - [MESSAGE][FAILED] - Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at Script1624371709791.run(Script1624371709791.groovy:47)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038\\1624453040925.png]]
+
+2021-06-23 19:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Service - Contact Us/txa_Message"), "Random data", CONTINUE_ON_FAILURE): Text 'Random data' is set on object 'Object Repository/Page_Customer Service - Contact Us/txa_Message'
+
+2021-06-23 19:57:21 - [MESSAGE][PASSED] - Text 'Random data' is set on object 'Object Repository/Page_Customer Service - Contact Us/txa_Message'
+
+2021-06-23 19:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Service - Contact Us/btn_Send"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Customer Service - Contact Us/btn_Send' is clicked on
+
+2021-06-23 19:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Service - Contact Us/btn_Send' is clicked on
+
+2021-06-23 19:57:27 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Page_Customer Service - Contact Us/msg_Alert")).toLowerCase(), "your message has been successfully sent to our team.", false, STOP_ON_FAILURE): Actual text 'your message has been successfully sent to our team.' and expected text 'your message has been successfully sent to our team.' are matched 
+
+2021-06-23 19:57:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Customer Service - Contact Us/msg_Alert' is: 'Your message has been successfully sent to our team.'
+
+2021-06-23 19:57:27 - [MESSAGE][PASSED] - Actual text 'your message has been successfully sent to our team.' and expected text 'your message has been successfully sent to our team.' are matched 
+
+2021-06-23 19:57:27 - [TEST_STEP][PASSED] - Start tear down : tearDownIfFailed: Method 'tearDownIfFailed' complete successfully
+
+2021-06-23 19:57:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 19:57:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 19:57:30 - [MESSAGE][PASSED] - Method 'tearDownIfFailed' complete successfully
+
+2021-06-23 19:57:30 - [TEST_STEP][PASSED] - Start tear down : tearDown: Method 'tearDown' complete successfully
+
+2021-06-23 19:57:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-23 19:57:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-23 19:57:30 - [MESSAGE][PASSED] - Method 'tearDown' complete successfully
+
+2021-06-23 19:57:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC3_Contact Us' .
+
+2021-06-23 19:57:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC3_Contact Us' .
+[[ATTACHMENT|C:\\Users\\toandang\\Desktop\\Katalon Project\\KatalonTest.prj\\Reports\\20210623_195038\\TS_TEST-204 Katalon\\20210623_195038/videos\\test_3.avi]]]]></system-out>
+         <system-err><![CDATA[2021-06-23 19:55:36 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC3_Contact Us: Test Cases/Main Test Cases/TC3_Contact Us FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at Script1624371709791.run(Script1624371709791.groovy:47)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2931)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$9.call(Unknown Source)
+	at TC3_Contact Us.run(TC3_Contact Us:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png' to object 'Object Repository/Page_Customer Service - Contact Us/img_Upload'
+	... 21 more
+Caused by: org.openqa.selenium.InvalidArgumentException: File not found: C:/Users/toandang/Desktop/Katalon Project/KatalonTest.prj/KMS-Logo.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '1XSTX32', ip: '10.23.0.74', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 1364, moz:profile: C:\Users\toandang\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf6dd5f9-7940-471c-a422-4d221e4e36b6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.doCall(UploadFileKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword$_uploadFile_closure1.call(UploadFileKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-23 19:50:49 - [TEST_SUITE][FAILED] - TS_TEST-204 Katalon: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-06-23 19:50:49 - [TEST_SUITE][FAILED] - TS_TEST-204 Katalon: Test Cases/Main Test Cases/TC2_Forgot Password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'there is 1 error
+invalid email address.' and expected text 'there is 1 error
+there is no account registered for this email address.' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at TC2_Forgot Password.run(TC2_Forgot Password:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624452638474.run(TempTestSuite1624452638474.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

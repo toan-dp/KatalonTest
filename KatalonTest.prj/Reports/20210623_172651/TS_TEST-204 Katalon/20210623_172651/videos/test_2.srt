@@ -1,0 +1,8 @@
+1
+00:00:01,270 --> 00:00:01,271
+3. Call test case to navigate to 'Authentication' Page
+
+2
+00:00:01,374 --> 00:00:01,377
+3. Open Browser and Navigate to Home Page
+

@@ -1,0 +1,8 @@
+1
+00:00:00,507 --> 00:00:00,507
+1. callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE)
+
+2
+00:00:00,597 --> 00:00:00,598
+1. openBrowser(G_SiteURL)
+

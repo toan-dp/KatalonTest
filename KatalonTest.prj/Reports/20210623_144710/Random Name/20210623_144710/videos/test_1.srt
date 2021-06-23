@@ -1,0 +1,66 @@
+1
+00:00:00,765 --> 00:00:00,783
+1. callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE)
+
+2
+00:00:01,602 --> 00:00:01,605
+1. openBrowser(G_SiteURL)
+
+3
+00:00:21,434 --> 00:00:21,437
+5. maximizeWindow()
+
+4
+00:00:21,851 --> 00:00:21,852
+9. click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE)
+
+5
+00:00:26,187 --> 00:00:26,190
+13. verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE)
+
+6
+00:00:26,789 --> 00:00:26,791
+5. click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password"))
+
+7
+00:00:29,157 --> 00:00:29,159
+9. verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE)
+
+8
+00:00:29,685 --> 00:00:29,687
+13. click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE)
+
+9
+00:00:31,763 --> 00:00:31,765
+17. verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE)
+
+10
+00:00:32,314 --> 00:00:32,316
+21. setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), Email)
+
+11
+00:00:33,059 --> 00:00:33,061
+25. switch (com.example.WebUICustomKeywords.CheckInput(Email))
+
+12
+00:00:33,114 --> 00:00:33,116
+2. comment("Invalid email address")
+
+13
+00:00:33,175 --> 00:00:33,176
+6. click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"))
+
+14
+00:00:36,582 --> 00:00:36,588
+10. verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE)
+
+15
+00:00:37,036 --> 00:00:37,037
+14. break
+
+16
+00:00:37,052 --> 00:00:37,053
+1. closeBrowser()
+

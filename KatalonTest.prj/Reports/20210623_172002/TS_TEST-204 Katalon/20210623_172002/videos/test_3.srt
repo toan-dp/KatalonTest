@@ -1,0 +1,52 @@
+1
+00:00:00,816 --> 00:00:00,824
+3. Open Browser and navigate to Home Page
+
+2
+00:00:15,761 --> 00:00:15,762
+9. Maximize Window
+
+3
+00:00:16,102 --> 00:00:16,104
+15. Click on 'Contact us' in Main Menu
+
+4
+00:00:19,269 --> 00:00:19,271
+21. Verify navigation to 'Custom Service - Contact Us' Page
+
+5
+00:00:19,727 --> 00:00:19,728
+27. Select 'Customer Service' in Subject Heading dropdown list 
+
+6
+00:00:20,609 --> 00:00:20,610
+33. Input a valid email address into Email field
+
+7
+00:00:21,335 --> 00:00:21,336
+39. Input a random value into Order Reference field
+
+8
+00:00:22,085 --> 00:00:22,086
+45. Get file Path of image
+
+9
+00:00:22,099 --> 00:00:22,100
+51. Upload an image into Attach File
+
+10
+00:00:22,617 --> 00:00:22,618
+57. Input value into Message area
+
+11
+00:00:23,361 --> 00:00:23,363
+63. Click on 'Send' button
+
+12
+00:00:28,967 --> 00:00:28,968
+69. Verify arlert
+
+13
+00:00:29,497 --> 00:00:29,504
+1. closeBrowser()
+

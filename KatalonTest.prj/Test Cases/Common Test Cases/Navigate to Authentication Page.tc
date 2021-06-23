@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Stactic: Navigate to Authentication Page
+Step:
+1. Open browser and navigate to Home Page
+2. Click on 'Sign In' link in Main Menu
+
+Expected:
+Brought to Authentication page</description>
+   <name>Navigate to Authentication Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5a19585-0e05-4d94-843a-d5eb091d53af</testCaseGuid>
+</TestCaseEntity>

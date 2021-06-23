@@ -1,0 +1,48 @@
+1
+00:00:00,993 --> 00:00:00,995
+3. Call test case to navigate to 'Authentication' Page
+
+2
+00:00:01,092 --> 00:00:01,094
+3. Open Browser and Navigate to Home Page
+
+3
+00:01:48,718 --> 00:01:48,720
+9. Maximize Window
+
+4
+00:01:49,015 --> 00:01:49,017
+15. Click on 'Sign In' link in Main Menu
+
+5
+00:02:05,880 --> 00:02:05,882
+21. Verify navigation to 'Authentication' Page 
+
+6
+00:02:06,418 --> 00:02:06,419
+9. Navigate to 'Forgot your password' Page
+
+7
+00:02:10,072 --> 00:02:10,075
+15. Verify was redirected to 'Forgot your password' Page 
+
+8
+00:02:10,677 --> 00:02:10,678
+21. Click button 'Retrieve Password' with no data
+
+9
+00:02:17,177 --> 00:02:17,179
+27. Verify alert
+
+10
+00:02:17,743 --> 00:02:17,744
+33. Input an valid email which was not registered before
+
+11
+00:02:18,337 --> 00:02:18,338
+39. Click button 'Retrieve Password' with Email was not registered
+
+12
+00:02:24,092 --> 00:02:24,094
+45. Verify alert
+

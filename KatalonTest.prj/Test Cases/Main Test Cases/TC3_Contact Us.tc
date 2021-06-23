@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Story: Contact Us
+Step: 
+1. Navigate to Home Page
+2. Click on &quot;Contact us&quot; in Main Menu
+3.  Select &quot;Customer Service&quot; in Subject Heading dropdown list
+4. Input a valid email address into Email field
+5. Input a random value into Order Reference field
+6. Choose to upload an image into Attach File
+7. Input value into Message area
+8. Click on &quot;Send&quot; button.
+
+Expected result:
+Message &quot;Your message has been successfully sent to our team.&quot; is displayed</description>
+   <name>TC3_Contact Us</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72359367-5ae7-4ead-8943-ea95346ea906</testCaseGuid>
+   <variable>
+      <defaultValue>'test@gmail.com'</defaultValue>
+      <description></description>
+      <id>9f335fd1-21ab-4ed9-a4fd-0502d3667a37</id>
+      <masked>false</masked>
+      <name>EmailRegistered</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,66 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("Common Test Cases/Navigate to Authentication Page"), null, STOP_ON_FAILURE)
+
+2
+00:00:00,100 --> 00:00:00,100
+1. openBrowser(G_SiteURL)
+
+3
+00:00:16,222 --> 00:00:16,223
+5. maximizeWindow()
+
+4
+00:00:16,607 --> 00:00:16,608
+9. click(findTestObject("Page_Home/lnk_SignIn"), STOP_ON_FAILURE)
+
+5
+00:00:19,776 --> 00:00:19,777
+13. verifyMatch(getText(findTestObject("Object Repository/Page_Authentication/txa_title_Authentication Page")).toLowerCase(), "authentication", false, STOP_ON_FAILURE)
+
+6
+00:00:20,438 --> 00:00:20,440
+5. click(findTestObject("Object Repository/Page_Authentication/lnk_Forgot Your Password"))
+
+7
+00:00:22,291 --> 00:00:22,292
+9. verifyMatch(getText(findTestObject("Object Repository/Page_Forgot Your Password/txa_title_Forgot Your Password")).toLowerCase(), "forgot your password?", false, STOP_ON_FAILURE)
+
+8
+00:00:22,776 --> 00:00:22,779
+13. click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"), STOP_ON_FAILURE)
+
+9
+00:00:24,450 --> 00:00:24,452
+17. verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+invalid email address.", false, STOP_ON_FAILURE)
+
+10
+00:00:24,963 --> 00:00:24,964
+21. setText(findTestObject("Object Repository/Page_Forgot Your Password/txt_Email Address"), Email)
+
+11
+00:00:25,714 --> 00:00:25,715
+25. switch (com.example.WebUICustomKeywords.CheckInput(Email))
+
+12
+00:00:25,879 --> 00:00:25,890
+2. comment("Email was not registered")
+
+13
+00:00:25,960 --> 00:00:25,960
+6. click(findTestObject("Object Repository/Page_Forgot Your Password/btn_Retrieve Password"))
+
+14
+00:00:30,259 --> 00:00:30,260
+10. verifyMatch(getText(findTestObject("Page_Forgot Your Password/msg_Alert")).toLowerCase(), "there is 1 error
+there is no account registered for this email address.", false, STOP_ON_FAILURE)
+
+15
+00:00:30,716 --> 00:00:30,717
+14. break
+
+16
+00:00:30,730 --> 00:00:30,737
+1. closeBrowser()
+

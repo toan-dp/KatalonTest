@@ -1,0 +1,28 @@
+1
+00:00:00,632 --> 00:00:00,633
+3. Open Browser and navigate to Home Page
+
+2
+00:00:15,645 --> 00:00:15,647
+9. Maximize Window
+
+3
+00:00:15,944 --> 00:00:15,949
+15. Click on 'Contact us' in Main Menu
+
+4
+00:00:19,168 --> 00:00:19,169
+21. Verify navigation to 'Custom Service - Contact Us' Page
+
+5
+00:00:19,630 --> 00:00:19,631
+27. Select 'Customer Service' in Subject Heading dropdown list 
+
+6
+00:00:20,478 --> 00:00:20,480
+33. Input a valid email address into Email field
+
+7
+00:00:20,684 --> 00:00:20,684
+1. closeBrowser()
+

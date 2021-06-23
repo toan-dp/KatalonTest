@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Story:	 Register An Account
+
+Step:
+1. Open browser with URL: http://automationpractice.com/index.php 
+2. Click &quot;Sign in&quot; link in Main Menu
+3. Input valid Email
+4. Click &quot;Create an account&quot; button
+
+Expected:
+	 Verify that the email address in step 3 is displayed in Email field
+
+</description>
+   <name>TC1_ Register An Account</name>
+   <tag></tag>
+   <comment>Story: Register An Account
+Given that the user has the valid login information</comment>
+   <testCaseGuid>29b29ae2-fa1b-449a-8140-93f91c2ef168</testCaseGuid>
+   <variable>
+      <defaultValue>'TEST204Katalon@gmail.com'</defaultValue>
+      <description></description>
+      <id>010bf863-0ccb-4a99-9e4f-54895cd8d00f</id>
+      <masked>false</masked>
+      <name>EmailNotRegistered</name>
+   </variable>
+</TestCaseEntity>
